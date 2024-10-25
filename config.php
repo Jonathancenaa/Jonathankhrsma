@@ -1,8 +1,9 @@
 <?php
-$host = 'sql212.infinityfree.com';
-$db = 'if0_37582356_unitelab';
-$user = 'if0_37582356';
-$pass = 'k5aZz84GZeSK9R';
+// Configuration for database connection
+$host = 'localhost';  // Database host
+$db = 'todo_app';     // Database name
+$user = 'root';       // Database username
+$pass = '';           // Database password (leave empty if no password)
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
